@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noutăți - LT Adrian Păunescu</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="../css/lightbox.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="../js/lightbox.js" defer></script>
+    <script src="../js/main.js" defer></script>
+</head>
+
+<body>
+    <header data-aos="fade-down">
+
+        <a href="../index.html"> <img class="header-logo" src="../images/logo.png"></a>
+
+        <nav id="navbar">
+            <a onclick="mobileMenu()" href="../index.html#despre">Despre noi</a>
+            <a onclick="mobileMenu()" href="../index.html#galerie">Galerie</a>
+            <a onclick="mobileMenu()" href="../index.html#contacte">Contacte</a>
+            <a onclick="mobileMenu()" href="noutati.html">Noutăți</a>
+            <a onclick="mobileMenu()" href="orar.html">Orar</a>
+            <i onclick="mobileMenu()" id="hamburger" class="fas fa-bars"></i>
+
+        </nav>
+
+    </header>
+    <main>
+        <section id="noutati">
+
+            <h1 class="centered">Noutăți</h1>
+
+            <div class="noutate">
+                <div class="noutate-data">15/05/2024</div>
+
+                <h2 class="centered">Ultimul Sunet</h2>
+
+                <img src="../images/clopot.png">
+
+                <p>
+                    Cu plăcere, vă invităm la evenimentul final al anului școlar, Ultimul Sunet, organizat de
+                    administrația școlii. Vă invităm să sărbătorim împreună reușitele și realizările din acest an școlar
+                    într-o atmosferă solemnă și respectuoasă.
+                    Evenimentul începe la ora 08:00
+                </p>
+            </div>
+            
+            
+            
+            
+            <div class="noutate">
+                
+                <div class="noutate-data">16/04/2024</div>
+
+                <h2 class="centered">Un paște fericit!</h2>
+                <img src="data:image/jpeg;base64,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" alt="">
+                <p>
+                    Dragi elevi, părinți și cadre didactice.
+                    <br>
+                    Sfintele Sărbători de Paşte să vă aducă linişte în suflet, multă bucurie, sănătate, fericire şi
+                    puterea de a dărui şi ajuta semenii. 
+                    <br>
+                    Fie ca această sărbătoare să vă aducă clipe de bucurie alături de cei dragi
+                    să vă inspire să călcați mereu pe cărările binelui și să vă umple sufletul de speranțe pentru viitor.
+                    <br>
+                    Cu drag, </br> Administrația Școlii!
+                </p>
+            </div>
+
+        
+
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>

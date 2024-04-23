@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - LT Adrian Păunescu</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/slider.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header data-aos="fade-down">
+        <a href=""> <img class="header-logo" src="images/logo.png"></a>
+        <nav id="navbar">
+            <a onclick="mobileMenu()" href="#despre">Despre noi</a>
+            <a onclick="mobileMenu()" href="#galerie">Galerie</a>
+            <a onclick="mobileMenu()" href="#contacte">Contacte</a>
+            <a onclick="mobileMenu()" href="pages/noutati.html">Noutăți</a>
+            <a onclick="mobileMenu()" href="pages/orar.html">Orar</a>
+            <i onclick="mobileMenu()" id="hamburger" class="fas fa-bars"></i>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="intro">
+            <div class="intro-content" data-aos="fade-in" data-aos-delay="500">
+                <img class="logo" src="images/logo.png">
+                <h1>LT „Adrian Păunescu”</h1>
+                <h2>Un liceu pentru toți</h2>
+
+                <a id="despre-btn" class="intro-btn" href="#despre">Despre noi</a>
+                <a class="intro-btn" href="pages/orar.html">Orar</a>
+
+            </div>
+
+            <div class="custom-shape-divider-bottom-1709053342">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+        </section>
+
+
+        <section id="despre" data-aos="fade-in">
+            <h1 class="centered"> Despre noi </h1>
+
+            <i class="fas fa-graduation-cap i1"></i>
+            <i class="fas fa-pencil-alt i2"></i>
+            <i class="fas fa-book i3"></i>
+
+            <i class="fas fa-graduation-cap i4"></i>
+            <i class="fas fa-pencil-alt i5"></i>
+            <i class="fas fa-book i6"></i>
+
+            <i class="fas fa-graduation-cap i7"></i>
+            <i class="fas fa-pencil-alt i8"></i>
+            <i class="fas fa-book i9"></i>
+
+            <p class="p-despre">
+                Liceului Teologic ” Adrian Păunescu” are misiunea de a crea un mediu educațional stimulativ,
+                caracterizat prin profesionalism, echitate, integrare, eficiență, deschidere către nou și progres, un
+                mediu în care fiecare să se simtă valorizat, astfel încât să contribuie atât la dezvoltarea sa
+                personală, la dezvoltarea celorlalți, cât și a organizației în asamblu.
+                Instituția asigură servicii educaționale profesioniste, inovatoare și echitabile,
+                în strânsă legătură cu nevoile vieții, iar școala va deveni un loc în care tinerii învață să învețe, își
+                formează caracterul și își găsesc vocația, astfel încât să se manifeste ca personalități active și
+                creatoare, atât la nivel individual, cât și social.
+            </p>
+
+            <div class="slideshow">
+
+                <div class="slide">
+                    <img src="images/absolventi.jpg">
+
+                    <div class="slide-text">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p>
+                            Ziua absolvirii este un eveniment special pentru elevii noștri. Este ziua în care
+                            ajung la sfârșitul unei frumoase etape din viața lor și sunt pregătiți pentru a pași cu pași
+                            repezi la o altă etapă.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="images/activitate.jpg">
+
+                    <div class="slide-text">
+                        <i class="fas fa-book"></i>
+                        <p>
+                            În cadrul Liceului se întâmplă multe lucruri minunate atât din gama
+                            activităților școlare cât și multe activități extrașcolare, menite să îmbogățească mințile
+                            în schimbare ale elevilor noștri.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="images/clasa.jpg">
+
+                    <div class="slide-text">
+                        <i class="fas fa-user-tie"></i>
+                        <p>
+                            Obținerea unei înalte calităţi şi eficienţe ale procesului educaţional în liceu este asigurată prin
+                            crearea unui mediu adecvat de realizare a procesului educaţional. Mediul este un factor modelator care permite
+                            stimularea şi amplificarea dorinței de a învăța.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="galerie" data-aos="fade-in">
+            <h1 class="centered">Galerie</h1>
+
+            <i class="fas fa-pencil-alt i2"></i>
+            <i class="fas fa-graduation-cap i4"></i>
+            <i class="fas fa-pencil-alt i5"></i>
+            <i class="fas fa-graduation-cap i7"></i>
+            <i class="fas fa-pencil-alt i8"></i>
+            <i class="fas fa-book i9"></i>
+
+            <div class="galerie-container">
+                <a href="images/start.jpg" data-aos="fade-in" data-aos-delay="200">
+                    <img src="images/start.jpg" alt="">
+                </a>
+                <a href="images/absolventi.jpg" data-aos="fade-in" data-aos-delay="400">
+                    <img src="images/absolventi.jpg" alt="">
+                </a>
+                <a href="images/clasa.jpg" data-aos="fade-in" data-aos-delay="600">
+                    <img src="images/clasa.jpg" alt="">
+                </a>
+                <a href="images/activitate.jpg" data-aos="fade-in" data-aos-delay="800">
+                    <img src="images/activitate.jpg" alt="">
+                </a>
+                <a href="images/img_2.jpg" data-aos="fade-in" data-aos-delay="1000">
+                    <img src="images/img_2.jpg" alt="">
+                </a>
+                <a href="images/img_3.jpg" data-aos="fade-in" data-aos-delay="1200">
+                    <img src="images/img_3.jpg" alt="">
+                </a>
+            </div>
+
+
+        </section>
+
+        <section id="contacte" data-aos="fade-in">
+            <h1 class="centered">Contacte</h1>
+
+            <div class="row">
+
+                <div class="col-50 contacte-info">
+
+                    <b>Telefon:</b>
+                    <a href="tel:+373 258 72104">258 72104</a>
+                    <br>
+                    <b>Adresa</b>
+                    <span>s. Căzănești r-ul Telenești</span>
+                    <br>
+                    <b>Email:</b>
+                    <a href="mailto:liceumail@gmail.com">liceumail@gmail.com</a>
+                    <br>
+
+                    <div class="formular-container">
+                        <h3>Lasă un mesaj</h3>
+                        <form id="formular">
+                            <input required type="text" id="nume" placeholder="Nume">
+                            <br />
+
+                            <input required type="email" id="email" placeholder="Email">
+                            <br />
+
+                            <textarea required id="mesaj" rows="5" placeholder="Mesajul"></textarea>
+                            <br />
+
+                            <input onclick="send()" type="button" value="Transmite">
+                        </form>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-50">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5379.237116560298!2d28.47379722560418!3d47.61410621919262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb84284f372411%3A0xa4a8c82fd1f86438!2sGimnaziul%20cazanesti!5e0!3m2!1sro!2s!4v1710867627540!5m2!1sro!2s"
+                        class="harta" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer data-aos="fade-in" data-aos-offset="-400">
+        <h2>Liceul Teoretic "Adrian Păunescu"</h2>
+    </footer>
+
+</body>
+
+</html>
