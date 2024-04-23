@@ -1,5 +1,5 @@
-new SimpleLightbox({elememnts:".galerie-container a"});
-new SimpleLightbox({elememnts:".orar-imagini a"});
+new SimpleLightbox({elements:".galerie-container a"});
+new SimpleLightbox({elements:".orar-imagini a"});
 
 AOS.init({once:true});
 
